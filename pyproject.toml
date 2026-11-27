@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "popa-recon-mcp"
+version = "0.1.0"
+description = "POPA Recon public Web3 & on-chain deep research MCP server bridge and client configuration."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "POPA Recon", url = "https://poparecon.com" }]
+keywords = ["mcp", "mcp-server", "web3", "crypto", "onchain", "research", "defi"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://poparecon.com"
+Repository = "https://github.com/lightsmite/popa-recon-mcp"
+Documentation = "https://poparecon.com/how"
+
+[project.scripts]
+popa-recon-mcp = "popa_recon_mcp:main"
