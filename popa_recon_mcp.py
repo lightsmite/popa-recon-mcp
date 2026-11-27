@@ -51,6 +51,7 @@ def _forward_message(
     headers = {
         "Content-Type": "application/json",
         "Accept": "application/json, text/event-stream",
+        "User-Agent": "popa-recon-mcp/0.1.0",
     }
     if session_id:
         headers["Mcp-Session-Id"] = session_id
