@@ -9,7 +9,7 @@ description = "POPA Recon public Web3 & on-chain deep research MCP server bridge
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
-authors = [{ name = "POPA Recon", url = "https://poparecon.com" }]
+authors = [{ name = "POPA Recon" }]
 keywords = ["mcp", "mcp-server", "web3", "crypto", "onchain", "research", "defi"]
 dependencies = []
 
