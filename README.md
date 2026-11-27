@@ -1,6 +1,6 @@
 # POPA Recon MCP Server
 
-[![POPA Recon MCP connector](https://glama.ai/mcp/connectors/com.poparecon/popa-recon/badges/score.svg)](https://glama.ai/mcp/connectors/com.poparecon/popa-recon)
+[![lightsmite/popa-recon-mcp MCP server](https://glama.ai/mcp/servers/lightsmite/popa-recon-mcp/badges/score.svg)](https://glama.ai/mcp/servers/lightsmite/popa-recon-mcp)
 [![PyPI version](https://img.shields.io/pypi/v/popa-recon-mcp.svg)](https://pypi.org/project/popa-recon-mcp/)
 
 Public Web3, on-chain, and crypto market **deep research** over the [Model Context Protocol](https://modelcontextprotocol.io/).
@@ -11,10 +11,13 @@ Connect your AI assistant directly to **`https://poparecon.com/mcp`** (Streamabl
 - **Hosted MCP Endpoint:** `https://poparecon.com/mcp`
 - **PyPI Package:** [popa-recon-mcp](https://pypi.org/project/popa-recon-mcp/)
 - **Glama Connector:** [com.poparecon/popa-recon](https://glama.ai/mcp/connectors/com.poparecon/popa-recon)
+- **Glama Server:** [lightsmite/popa-recon-mcp](https://glama.ai/mcp/servers/lightsmite/popa-recon-mcp)
 - **How It Investigates:** [https://poparecon.com/how](https://poparecon.com/how)
 - **Guides & Token Index:** [Guides](https://poparecon.com/guides) · [Tokens](https://poparecon.com/token)
 
 ---
+
+![POPA Recon — Public Web3 & On-Chain Deep Research MCP Server](https://poparecon.com/static/card.png)
 
 ## Capabilities
 
