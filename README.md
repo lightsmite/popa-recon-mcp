@@ -1,6 +1,7 @@
 # POPA Recon MCP Server
 
 [![POPA Recon MCP connector](https://glama.ai/mcp/connectors/com.poparecon/popa-recon/badges/score.svg)](https://glama.ai/mcp/connectors/com.poparecon/popa-recon)
+[![PyPI version](https://img.shields.io/pypi/v/popa-recon-mcp.svg)](https://pypi.org/project/popa-recon-mcp/)
 
 Public Web3, on-chain, and crypto market **deep research** over the [Model Context Protocol](https://modelcontextprotocol.io/).
 
@@ -8,6 +9,7 @@ Connect your AI assistant directly to **`https://poparecon.com/mcp`** (Streamabl
 
 - **Website:** [https://poparecon.com](https://poparecon.com)
 - **Hosted MCP Endpoint:** `https://poparecon.com/mcp`
+- **PyPI Package:** [popa-recon-mcp](https://pypi.org/project/popa-recon-mcp/)
 - **Glama Connector:** [com.poparecon/popa-recon](https://glama.ai/mcp/connectors/com.poparecon/popa-recon)
 - **How It Investigates:** [https://poparecon.com/how](https://poparecon.com/how)
 - **Guides & Token Index:** [Guides](https://poparecon.com/guides) · [Tokens](https://poparecon.com/token)
@@ -78,25 +80,25 @@ For clients that only spawn local `stdio` servers:
 }
 ```
 
-**Option B — Included zero-dependency Python 3.10+ bridge ([`popa_recon_mcp.py`](./popa_recon_mcp.py)):**
+**Option B — PyPI / zero-dependency Python 3.10+ bridge ([`popa-recon-mcp`](https://pypi.org/project/popa-recon-mcp/), [`popa_recon_mcp.py`](./popa_recon_mcp.py)):**
 
 ```bash
-git clone https://github.com/lightsmite/popa-recon-mcp.git
-cd popa-recon-mcp
-pip install .
+uvx popa-recon-mcp
+# or: pip install popa-recon-mcp
 ```
 
 ```json
 {
   "mcpServers": {
     "popa-recon": {
-      "command": "popa-recon-mcp"
+      "command": "uvx",
+      "args": ["popa-recon-mcp"]
     }
   }
 }
 ```
 
-Or run `python3 /path/to/popa_recon_mcp.py` directly with no install step. To point at a personal paid-credit endpoint instead of the anonymous tier, set `POPA_RECON_MCP_URL=https://poparecon.com/mcp/u/<your-token>` (or pass `--url`).
+Or install with `pip install popa-recon-mcp` and use `"command": "popa-recon-mcp"`. To point at a personal paid-credit endpoint instead of the anonymous tier, set `POPA_RECON_MCP_URL=https://poparecon.com/mcp/u/<your-token>` (or pass `--url`).
 
 ---
 
