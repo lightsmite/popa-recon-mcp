@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lightsmite/popa-recon-mcp",
+  "title": "POPA Recon MCP Server",
+  "description": "Zero-auth Streamable HTTP MCP server for cited Web3, token risk, and on-chain deep research.",
+  "websiteUrl": "https://poparecon.com/mcp",
+  "repository": {
+    "url": "https://github.com/lightsmite/popa-recon-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://poparecon.com/mcp"
+    }
+  ]
+}
